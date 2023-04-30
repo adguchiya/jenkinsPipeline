@@ -21,5 +21,10 @@ echo 'deploing'
 echo 'releasing'
             }
         }
+        stage('run') {
+            steps {
+echo 'runing'
+            }
+        }
     }
 }
